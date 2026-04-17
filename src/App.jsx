@@ -1,3 +1,4 @@
+import { Analytics } from '@vercel/analytics/react';
 import Hero from './components/Hero';
 import About from './components/About';
 import ProjectsSection from './components/ProjectsSection';
@@ -27,6 +28,7 @@ function App() {
       </main>
 
       <Footer />
+      <Analytics />
     </div>
   );
 }
